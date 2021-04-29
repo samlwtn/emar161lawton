@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
   soundfile.loop();
   amp = new p5.Amplitude();
   background(0);
